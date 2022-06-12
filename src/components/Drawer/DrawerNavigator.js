@@ -12,8 +12,6 @@ export default function DrawerNavigator () {
     return (
         <Drawer.Navigator useLegacyImplementation
             drawerContentOptions={{
-                backgroundColor: 'red',
-                activeTintColor: 'red',
                 itemStyle: { marginVertical: 5 },
             }}
 
